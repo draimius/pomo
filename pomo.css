@@ -1,0 +1,116 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: slategrey;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame {
+    margin: 100px 0px;
+    width: 500px;
+    height: auto;
+    background-color: rgba(255, 99, 71, 0.664);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.541) solid 2px;
+    color: white;
+    border-radius: 40px;
+}
+
+.pomoButtons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.pomoButtons button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: none;
+}
+
+.time {
+    margin-top: 50px;
+    font-size: 7rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.playButtons {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.playButtons button {
+    display: flex;
+    align-items: center;
+    background: none;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.763);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.playButtons button:nth-child(1) {
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.playButtons button:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 100px;
+}
+
+.doneAtSection {
+    border-top: rgba(255, 255, 255, 0.548) solid 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.shortBackground {
+    background-color: rgba(75, 177, 64, 0.637);
+}
+
+.longBackground {
+    background-color: rgba(64, 156, 177, 0.637);
+}
+
+button {
+    color: tomato;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pomo.css">
+    <title>My Pomo</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="frame" data-frame>
+            <section class="pomoButtons">
+                <button data-pomo>Pomodoro</button>
+                <button data-short>Short Break</button>
+                <button data-long>Long Break</button>
+            </section>
+            <h1 class="time" data-timer>45:00</h1>
+            <section class="playButtons">
+                <button data-start class="start">Start</button>
+                <button data-reset class="reset">↻</button>
+            </section>
+            <section class="doneAtSection">
+                <p>Will be done @ <span data-done>00:00</span></p>
+            </section>
+        </div>
+    </div>
+
+
+
+    <script src="pomo.js"></script>
+</body>
+
+</html>
